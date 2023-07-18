@@ -1,7 +1,15 @@
-import Image from 'next/image'
+'use client';
 import 'material-icons/iconfont/material-icons.css'
 
 function Header () {
+
+  const handleClickScroll = () => {
+    const element = document.getElementById('get-in-touch');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="flex min-h-screen flex-col items-center justify-between bg-brand-primary bg-overlay md:bg-walking-paws bg-no-repeat bg-cover">
       <div className="z-10 w-full items-center justify-between font-mono text-sm">
@@ -18,7 +26,7 @@ function Header () {
           <div className="flex mr-3 mt-1">
             <img className='m-1 h-auto w-10 2xl:w-20 cursor-pointer' src="/facebook.svg" alt="Facebook" />
             <img className='m-1 h-auto w-10 2xl:w-20 cursor-pointer' src="/instagram.svg" alt="instagram" />
-            </div>
+          </div>
         </div>
       </div>
 
@@ -42,6 +50,7 @@ function Header () {
       <div className="mb-12 md:mb-20 grid text-center">
         <button 
             className={`px-5 py-3 2xl:py-5 w-44 2xl:w-80 text-lg 2xl:text-4xl rounded-lg uppercase font-bold text-brand-primary bg-brand-eggShell hover:bg-brand-sand`}
+            onClick={handleClickScroll}
         >
             Get in touch
         </button>
