@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import 'material-icons/iconfont/material-icons.css'
 import Menu from './Menu';
+import SocialMediaIcons from './common/SocialMediaIcons';
 
 function Header () {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,14 +33,11 @@ function Header () {
               <Menu handleClickGetInTouch={handleClickGetInTouch} setMenuOpen={setMenuOpen} />
             )}
           </div>
-          <div className="flex mr-3 mt-1">
-            <a href="https://www.facebook.com/PawPrintsPerthUK/" className="cursor-pointer mt-3" target="_blank">
-                <img className='m-1 p-1 h-auto w-10 md:w-12 2xl:w-20 hover:scale-105' src='/facebook.svg' alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/pawprintsperth/" className="cursor-pointer mt-3" target="_blank">
-                <img className='m-1 p-1 h-auto w-10 md:w-12 2xl:w-20 hover:scale-105' src="/instagram.svg" alt="instagram" />
-            </a>
-          </div>
+          
+          <SocialMediaIcons
+              classnames='flex mr-3 mt-1'
+              iconClassnames='m-1 p-1 h-auto w-10 md:w-12 2xl:w-20 hover:scale-105'
+          />
         </div>
       </div>
 

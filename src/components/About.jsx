@@ -1,5 +1,6 @@
 import 'material-icons/iconfont/material-icons.css'
 import PawTitle from './common/PawTitle';
+import SocialMediaIcons from './common/SocialMediaIcons';
 
 function About () {
   return (
@@ -34,14 +35,11 @@ function About () {
                     <p className="text-brand-primary font-mono pt-2 font-extralight pl-3 sm:text-sm lg:text-base 2xl:text-3xl lg:pt-8 text-center">
                         Check out our Facebook &amp; Instagram for photos and updates!
                     </p>
-                    <div className="flex justify-center items-center mt-4">
-                        <a href="https://www.facebook.com/PawPrintsPerthUK/" className="cursor-pointer" target="_blank">
-                            <img className='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105' src='/facebook.svg' alt="Facebook" />
-                        </a>
-                        <a href="https://www.instagram.com/pawprintsperth/" className="cursor-pointer" target="_blank">
-                            <img className='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105' src="/instagram.svg" alt="instagram" />
-                        </a>
-                    </div>
+
+                    <SocialMediaIcons
+                        classnames='flex justify-center items-center mt-4'
+                        iconClassnames='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105'
+                    />
                 </div>
             </div>
         </div>

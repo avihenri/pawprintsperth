@@ -1,6 +1,7 @@
 'use client';
 import 'material-icons/iconfont/material-icons.css'
 import PawTitle from './common/PawTitle';
+import SocialMediaIcons from './common/SocialMediaIcons';
 
 function Footer () {
   return (
@@ -21,14 +22,10 @@ function Footer () {
                             {/* follow us */}
                             <div>
                                 <p className='uppercase text-center text-brand-primaryDark font-mono font-bold py-4 2xl:py-10 px-2 text-xl sm:text-2xl lg:text-3xl 2xl:text-6xl mt-10'>Follow us</p>
-                                <div className="flex justify-center items-center">
-                                    <a href="https://www.facebook.com/PawPrintsPerthUK/" className="cursor-pointer" target="_blank">
-                                        <img className='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105' src='/facebook.svg' alt="Facebook" />
-                                    </a>
-                                    <a href="https://www.instagram.com/pawprintsperth/" className="cursor-pointer" target="_blank">
-                                        <img className='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105' src="/instagram.svg" alt="instagram" />
-                                    </a>
-                                </div>
+                                <SocialMediaIcons
+                                    classnames='flex justify-center items-center mt-4'
+                                    iconClassnames='m-1 p-1 h-auto w-12 md:w-16 2xl:w-20 hover:scale-105'
+                                />
                             </div>
                         </div>
                     </div>
