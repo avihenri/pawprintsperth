@@ -1,15 +1,12 @@
 'use client';
 import 'material-icons/iconfont/material-icons.css'
+import PawTitle from './common/PawTitle';
 
 function Footer () {
   return (
     <section className="min-h-screen h-full flex flex-col justify-between bg-brand-eggShell bg-overlay bg-walking-paws-light bg-no-repeat bg-cover" id='get-in-touch'>
         <div className='flex flex-col mb-4'>
-            <div className="w-full items-center justify-center font-mono mt-8 flex 2xl:pb-10">   
-                <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-                <h3 className='uppercase text-center text-brand-primaryDark font-mono font-bold py-4 2xl:py-10 px-2 text-2xl sm:text-3xl lg:text-4xl 2xl:text-7xl 2xl:mt-10'>Get in touch</h3>
-                <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-            </div>
+            <PawTitle title='Get in touch' classnames='2xl:pb-10' titleClassnames='text-brand-primaryDark py-4 2xl:py-10 px-2' />
 
             <div className="w-full h-full mt-6 lg:mt-10 min-h-full">
                 <div className="w-full flex flex-col justify-between">

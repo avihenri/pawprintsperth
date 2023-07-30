@@ -1,13 +1,10 @@
 import 'material-icons/iconfont/material-icons.css'
+import PawTitle from './common/PawTitle';
 
 function Services () {
   return (
     <section className="flex min-h-screen flex-col items-center bg-brand-primary bg-overlay md:bg-walking-paws bg-no-repeat bg-cover" id="services">
-        <div className="z-10 w-full items-center justify-center font-mono mt-8 flex">
-            <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-            <h3 className='uppercase text-center text-brand-eggShell font-mono font-bold py-4 px-2 text-2xl sm:text-3xl lg:text-4xl 2xl:text-7xl 2xl:mt-10'>Our Services</h3>
-            <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-        </div>
+        <PawTitle title='our services' classnames='2xl:pb-10' titleClassnames='text-brand-eggShell py-4 px-2' />
 
         <div className="w-full mb-8 p-2">
             <h5 className="text-brand-sand text-center w-11/12 m-auto sm:w-full text-xl sm:text-2xl lg:text-3xl 2xl:text-6xl pb-1 my-6">We offer group walks, solo walks and pup visits.</h5>

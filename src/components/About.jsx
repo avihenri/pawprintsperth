@@ -1,13 +1,10 @@
 import 'material-icons/iconfont/material-icons.css'
+import PawTitle from './common/PawTitle';
 
 function About () {
   return (
     <section className="flex min-h-screen flex-col items-center bg-brand-eggShell bg-overlay md:bg-walking-paws-light bg-no-repeat bg-cover" id='about'>
-        <div className="z-10 w-full items-center justify-center font-mono mt-8 flex 2xl:pb-10">   
-            <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-            <h3 className='uppercase text-center text-brand-primaryDark font-mono font-bold py-4 2xl:py-10 px-2 text-2xl sm:text-3xl lg:text-4xl 2xl:text-7xl 2xl:mt-10'>about</h3>
-            <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6" src="/paw.svg" alt="Dog paw" />
-        </div>
+        <PawTitle title='about' classnames='2xl:pb-10' titleClassnames='text-brand-primaryDark py-4 2xl:py-10 px-2' />
 
         <div className="mt-8 w-full my-8 2xl:pt-10">
             <div className="md:w-8/12 2xl:w-8/12 m-auto md:bg-neutral-200 md:border-4 md:border-brand-secondary md:rounded-xl md:shadow-2xl md:mt-4 pb-4">

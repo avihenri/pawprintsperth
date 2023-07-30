@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .titlePaw {
+    @apply h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center mt-2 2xl:pt-6;
+  }
+}
