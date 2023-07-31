@@ -33,7 +33,7 @@ function Header () {
               <Menu handleClickGetInTouch={handleClickGetInTouch} setMenuOpen={setMenuOpen} />
             )}
           </div>
-          
+
           <SocialMediaIcons
               classnames='flex mr-3 mt-1'
               iconClassnames='m-1 p-1 h-auto w-10 md:w-12 2xl:w-20 hover:scale-105'
@@ -42,7 +42,10 @@ function Header () {
       </div>
 
       <div className="relative">
-        <h1 className="hidden">Paw Prints Perth</h1>
+        <h1 className="invisible">Welcome to Pawsome Walks - Your Trusted Dog Walking Service in Scone, Perth</h1>
+      </div>
+
+      <div className="relative">
         <img className="h-auto w-96 2xl:w-[38rem] px-8 md:p-2" src="/logo-tight-transparent.png" alt="Paw Prints Perth Logo" />
       </div>
 
