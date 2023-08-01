@@ -24,7 +24,7 @@ function Menu ({ handleClickGetInTouch, setMenuOpen }) {
 
     return (
         <>
-            <div className='absolute top-16 left-6 rounded-lg w-56 h-auto bg-brand-primaryDark p-4 shadow-2xl border-4 border-brand-primary'>
+            <div className='absolute top-16 left-6 rounded-lg w-80 h-auto bg-brand-primaryDark p-4 shadow-2xl border-4 border-brand-primary'>
                 <ul className=''>
                     <li className='text-brand-primaryDark font-bold text-lg bg-brand-secondary rounded-xl px-2 py-1 my-2 hover:scale-105 shadow-2xl'>
                         <button className='w-full text-start' onClick={() => handleClickAbout()}>About</button>
@@ -37,8 +37,16 @@ function Menu ({ handleClickGetInTouch, setMenuOpen }) {
                     </li>
                     <li className='text-brand-primaryDark font-bold text-lg bg-brand-secondary rounded-xl px-2 py-1 my-2 hover:scale-105 shadow-2xl'>
                         <a className='w-full text-start' href='/pdf/pawprintsperth_terms.pdf' target='_blank'>
-                            T&amp;C&apos;s
-                            <span class="material-icons float-right">
+                            Terms and conditions
+                            <span className="material-icons float-right">
+                                open_in_new
+                            </span>
+                        </a>
+                    </li>
+                    <li className='text-brand-primaryDark font-bold text-lg bg-brand-secondary rounded-xl px-2 py-1 my-2 hover:scale-105 shadow-2xl'>
+                        <a className='w-full text-start' href='/pdf/itc_cert.pdf' target='_blank'>
+                            First aid certificate
+                            <span className="material-icons float-right">
                                 open_in_new
                             </span>
                         </a>
