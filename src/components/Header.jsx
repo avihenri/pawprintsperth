@@ -35,8 +35,8 @@ function Header () {
           </div>
 
           <SocialMediaIcons
-              classnames='flex mr-3 mt-1'
-              iconClassnames='m-1 p-1 h-auto w-10 md:w-12 2xl:w-20 hover:scale-105'
+              classnames='flex mr-3 mt-4'
+              iconClassnames='m-1 p-1 h-auto w-12 2xl:w-20 hover:scale-105'
           />
         </div>
       </div>
