@@ -36,30 +36,30 @@ function Header () {
 
           <SocialMediaIcons
               classnames='flex mr-3 mt-4'
-              iconClassnames='m-1 p-1 h-auto w-12 2xl:w-20 hover:scale-105'
+              iconClassnames='m-1 p-1 h-auto w-12 2xl:w-16 hover:scale-105'
           />
         </div>
       </div>
       <div className="relative">
-        <img className="h-auto w-96 2xl:w-[38rem] px-8 md:p-2" src="/logo-tight-transparent.png" alt="Paw Prints Perth Logo" />
+        <img className="h-auto w-96 2xl:w-[30rem] px-8 md:p-2" src="/logo-tight-transparent.png" alt="Paw Prints Perth Logo" />
       </div>
 
       <div className="mb-3 text-center lg:flex">
         <h1 className="hidden">Welcome to Pawsome Walks - Your Trusted Dog Walking Service in Scone, Perth</h1>
-        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-5xl font-extralight mx-3 md:mx-0 2xl:mx-3">fully insured</h2>
+        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-3xl font-extralight mx-3 md:mx-0 2xl:mx-3">fully insured</h2>
         <div className='w-full lg:w-10 flex justify-center items-center'>
           <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center" src="/paw.svg" alt="Dog paw" />
         </div>
-        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-5xl font-extralight mx-3 md:mx-0 2xl:mx-3">canine first aid trained</h2>
+        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-3xl font-extralight mx-3 md:mx-0 2xl:mx-3">canine first aid trained</h2>
         <div className='w-full lg:w-10 flex justify-center items-center'>
           <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center" src="/paw.svg" alt="Dog paw" />
         </div>
-        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-5xl font-extralight mx-3 md:mx-0 2xl:mx-3">Passionate and Reliable</h2>
+        <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-3xl font-extralight mx-3 md:mx-0 2xl:mx-3">Passionate and Reliable</h2>
       </div>
 
       <div className="mb-20 grid text-center">
         <button 
-            className={`px-5 py-3 2xl:py-5 w-44 2xl:w-80 text-lg 2xl:text-4xl rounded-lg uppercase font-bold text-brand-primary bg-brand-eggShell hover:bg-brand-sand hover:scale-105`}
+            className={`px-5 py-3 2xl:py-5 w-44 2xl:w-80 text-lg 2xl:text-2xl rounded-lg uppercase font-bold text-brand-primary bg-brand-eggShell hover:bg-brand-sand hover:scale-105`}
             onClick={handleClickGetInTouch}
         >
             Get in touch
