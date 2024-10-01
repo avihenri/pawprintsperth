@@ -20,7 +20,7 @@ function About () {
                             Woof… I mean hello!
                         </h4>
                         <p className="text-brand-primary font-mono pl-3 pr-4 pt-3 font-extralight sm:text-sm lg:text-base 2xl:text-xl lg:pt-8">
-                            <span className="text-brand-primaryDark font-bold">I'm Leanne</span>, a dog walker and self-proclaimed "dog whisperer" based in Scone, Perth. Dogs have always been a big part of my life and growing up, we have always had a lot in our family! I honestly couldn&apos;t think of a better way to spend my days than surrounded by 4 legged, furry friends 😁 I decided to do it full time and start my very own dog walking business, and to say I am excited would be an understatement.  🐾 
+                            <span className="text-brand-primaryDark font-bold">I'm Leanne</span>, a dog walker and self-proclaimed "dog whisperer" based in Perth. Dogs have always been a big part of my life and growing up, we have always had a lot in our family! I honestly couldn&apos;t think of a better way to spend my days than surrounded by 4 legged, furry friends 😁 After over a year of running my dog walking business full-time, I can confidently say it's been one of the best decisions I've ever made. I love every moment, from meeting new furry friends to helping busy pet owners, and I'm more passionate than ever about what I do.  🐾 
                         </p>
                    </div>
                 </div>

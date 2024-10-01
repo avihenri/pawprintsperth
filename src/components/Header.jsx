@@ -45,7 +45,6 @@ function Header () {
       </div>
 
       <div className="mb-3 text-center lg:flex">
-        <h1 className="hidden">Welcome to Pawsome Walks - Your Trusted Dog Walking Service in Scone, Perth</h1>
         <h2 className="text-brand-sand uppercase text-lg xl:text-2xl 2xl:text-3xl font-extralight mx-3 md:mx-0 2xl:mx-3">fully insured</h2>
         <div className='w-full lg:w-10 flex justify-center items-center'>
           <img className="h-6 w-6 2xl:h-16 2xl:w-16 m-1 text-center" src="/paw.svg" alt="Dog paw" />
